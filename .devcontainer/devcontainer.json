@@ -1,1 +1,15 @@
+{
+  "name": "Ollama Dev Container",
+  "build": {
+    "dockerfile": "../Dockerfile"
+  },
+  "forwardPorts": [11434],
+  "postCreateCommand": "ollama pull llama3",
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": []
+    }
+  }
+}
 

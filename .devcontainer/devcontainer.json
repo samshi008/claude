@@ -4,7 +4,7 @@
     "dockerfile": "../Dockerfile"
   },
   "forwardPorts": [11434],
-  "postCreateCommand": "ollama pull llama3",
+  "postCreateCommand": "ollama run llama3.2:3b",
   "customizations": {
     "vscode": {
       "settings": {},
